@@ -7,7 +7,7 @@ public class JuniorSupportHandler extends AbstractSupportHanler{
         } else if (nextHandler != null){
             nextHandler.handle(issue);
         } else {
-            System.out.println("[JuniourSupport] can't handle" + issue);
+            System.out.println("[JuniourSupport] can't handle" + issue + " — escalate manually");
         }
     }
 }
